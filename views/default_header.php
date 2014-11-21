@@ -42,9 +42,9 @@
 					<div class="clear"></div>
 				</nav>
 				
-				<?php if (empty($header_class) || $header_class != 'page-header--small') { ?>
+				<?php if (empty($header_class) || $header_class != 'page-header--small'): ?>
 				<h1 class="page-headline"><?= $header_headline ?></h1>
 				<p class="page-desc"><?= $header_description ?></p>
-				<?php } ?>
+				<?php endif; ?>
 			</div>
 		</header>

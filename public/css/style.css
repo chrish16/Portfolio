@@ -7,7 +7,7 @@
  * Reset annoying mobile WebKit behaviors and box sizing.
  */
 * {
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
