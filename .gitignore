@@ -1,0 +1,6 @@
+.DS_Store
+public/assets/
+public/downloads/*.exe
+public/downloads/*.txt
+public/downloads/*.zip
+sftp-config.json

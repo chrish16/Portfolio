@@ -1,0 +1,755 @@
+/**
+ * Open Sans web font.
+ */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600);
+
+/**
+ * Reset annoying mobile WebKit behaviors and box sizing.
+ */
+* {
+    -webkit-appearance: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+/**
+ * HTML5 for prehistoric browsers.
+ */
+header,
+nav,
+section,
+footer {
+	display: block;
+}
+
+body {
+	background: #252525;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+strong {
+	font-weight: 600;
+}
+
+/**
+ * General wrapper element that ensures content doesn't spread too far.
+ */
+.anchor {
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+	max-width: 1000px;
+}
+
+/**
+ * Old school float clearing.
+ */
+.clear {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	width: 100%;
+}
+
+.page-header {
+	background: #f5f5f5 no-repeat 50% 100%;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.page-header--small {
+	background: #fff;
+	padding: 0;
+}
+
+	/**
+	 * Top navigation.
+	 */
+	nav {}
+
+		/**
+		 * Top ribbon logo.
+		 */
+		.logo {}
+
+			.logo-img {
+				display: block;
+				float: left;
+				height: 45px;
+				width: 30px;
+			}
+
+			.logo-img:hover {
+				opacity: 0.5;
+			}
+
+		/**
+		 * Top navigation hamburger menu icon.
+		 */
+		.menu-icon {
+			border: transparent 10px solid;
+			display: block;
+			float: right;
+			margin-top: 3px;
+			text-decoration: none;
+		}
+		
+		.menu-icon--close {
+			display: none;
+		}
+
+		:target .menu-icon--open {
+			display: none;
+		}
+
+		:target .menu-icon--close {
+			display: block;
+		}
+
+			.menu-icon img {
+				display: block;
+				height: 20px;
+				width: 21px;
+			}
+
+		/**
+		 * Top navigation <ul>.
+		 */
+		.top-nav {
+			clear: both;
+			display: none;
+			list-style: none;
+			margin: 0;
+			padding: 5px 0 0;
+		}
+
+		:target .top-nav {
+			display: block;
+		}
+
+			.top-nav li {
+				border-bottom: #888 1px solid;
+			}
+
+				.top-nav a {
+					color: #252525;
+					display: block;
+					font-size: 12px;
+					letter-spacing: 1px;
+					line-height: 1;
+					padding: 10px 0;
+					text-decoration: none;
+					text-transform: uppercase;
+				}
+
+				.top-nav a:hover {
+					color: #888;
+				}
+
+	/**
+	 * Page headline and description.
+	 */
+	.page-headline {
+		color: #000;
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 1;
+		margin: 80px 0 0;
+		text-transform: uppercase;
+	}
+
+	.page-desc {
+		color: #888;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: 300;
+		margin: 0;
+	}
+
+/**
+ * Page main content.
+ */
+.content-row {
+	background: #fff;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.content-row--grey-bg {
+	background: #f5f5f5;
+}
+
+	.content-heading {
+		color: #252525;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 1;
+		margin: 0 0 10px;
+		text-transform: uppercase;
+	}
+
+	.content-text {
+		color: #888;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: 300;
+		margin: 10px 0 0;
+	}
+
+	/**
+	 * "My Skills" row in home main content.
+	 */
+	.home-skills {}
+
+		.home-skills-column {
+			margin-top: 60px;
+			width: 100%;
+		}
+
+			.home-skills-icon {
+				display: block;
+				height: 50px;
+				margin: 0 auto;
+				width: 50px;
+			}
+
+			.home-skills-column:hover .home-skills-icon {
+				opacity: 0.5;
+			}
+
+			.home-skills-heading {
+				color: #252525;
+				font-size: 16px;
+				font-weight: 600;
+				line-height: 1;
+				margin: 20px 0 0;
+				text-transform: uppercase;
+			}
+
+	/**
+	 * Portfolio page rows.
+	 */
+	.portfolio-info {}
+
+		.portfolio-heading {
+			color: #252525;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 1;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+		.portfolio-text {
+			color: #888;
+			font-size: 16px;
+			font-style: italic;
+			font-weight: 300;
+			margin: 20px 0;
+		}
+
+			.portfolio-text a {
+				color: #dc3a31;
+				text-decoration: none;
+			}
+
+			.portfolio-text a:hover {
+				text-decoration: underline;
+			}
+
+		.portfolio-button {
+			border: 2px solid #252525;
+			border-radius: 40px;
+			color: #252525;
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 36px;
+			padding: 0 20px;
+			text-decoration: none;
+		}
+
+		.portfolio-button:hover {
+			background: #252525;
+			color: #fff;
+		}
+
+	.portfolio-img-inline {
+		display: block;
+		margin: 40px auto 0;
+		width: 100%;
+	}
+
+	.portfolio-img-block {
+		border: 1px solid #ddd;
+		display: block;
+		margin: 80px auto 0;
+		width: 100%;
+	}
+
+	.portfolio-img-title {
+		color: #252525;
+		font-size: 14px;
+		font-weight: 600;
+		margin: 20px 0 0;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	.portfolio-img-caption {
+		color: #888;
+		font-size: 14px;
+		font-style: italic;
+		font-weight: 300;
+		margin: 10px 0 0;
+		text-align: left;
+	}
+
+		.portfolio-img-caption a {
+			color: #dc3a31;
+			text-decoration: none;
+		}
+
+		.portfolio-img-caption a:hover {
+			text-decoration: underline;
+		}
+
+	/**
+	 * Resume page.
+	 */
+	.resume-heading	{
+		border-bottom: 2px solid #ddd;
+		color: #252525;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 1;
+		padding-bottom: 20px;
+		margin: 0 0 20px;
+		text-transform: uppercase;
+	}
+
+	.resume-entry + .resume-heading {
+		margin-top: 80px;
+	}
+
+	.resume-entry {
+		color: #252525;
+		font-size: 16px;
+		margin: 0;
+		text-align: left;
+	}
+
+	.resume-entry + .resume-entry {
+		margin-top: 40px;
+	}
+
+		.resume-date {
+			color: #888;
+			display: block;
+			font-size: 14px;
+			font-style: italic;
+			font-weight: 300;
+			margin-bottom: 10px;
+		}
+
+		.resume-location {
+			color: #888;
+			display: block;
+			font-style: italic;
+			font-weight: 300;
+		}
+
+		.resume-desc {
+			font-size: 14px;
+			margin: 10px 0 0;
+		}
+
+		.resume-list {
+			margin: 10px 0 0;
+		}
+
+			.resume-list li {
+				font-size: 14px;
+			}
+
+		.resume-entry a {
+			color: #dc3a31;
+			text-decoration: none;
+		}
+
+		.resume-entry a:hover {
+			text-decoration: underline;
+		}
+
+	.resume-button {
+		border: 2px solid #252525;
+		border-radius: 40px;
+		color: #252525;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 36px;
+		margin-top: 80px;
+		padding: 0 20px;
+		text-decoration: none;
+	}
+
+	.resume-button:hover {
+		background: #252525;
+		color: #fff;
+	}
+
+/**
+ * Page footer.
+ */
+footer {
+	padding: 40px 0;
+	text-align: center;
+}
+
+	.footer-nav {
+		font-size: 0;
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+		.footer-nav li {
+			display: inline;
+			margin: 0;
+		}
+
+		.footer-nav li + li {
+			margin-left: 15px;
+		}
+
+			.footer-nav a {
+				color: #fff;
+				font-size: 10px;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+
+			.footer-nav a:hover {
+				color: #888;
+			}
+
+	.footer-copyright {
+		color: #888;
+		font-size: 10px;
+		font-weight: 300;
+		letter-spacing: 1px;
+		margin-top: 5px;
+	}
+
+/**
+ * Viewport media queries.
+ */
+@media (min-width: 480px) {
+
+	.page-header--home {
+		background-image: url(/img/home-bg.png);
+		background-size: 634px;
+		height: 460px;
+		padding: 0;
+	}
+
+		nav {}
+
+			.logo {}
+
+				.logo-img {
+					height: 90px;
+					width: 60px;
+				}
+
+			.menu-icon,
+			:target .menu-icon--close {
+				display: none;
+			}
+
+			.top-nav {
+				clear: none;
+				display: block;
+				float: right;
+				font-size: 0;
+				margin: 38px 0 0;
+				padding: 0;
+			}
+
+				.top-nav li {
+					border: 0;
+					display: inline;
+					margin: 0 0 0 25px;
+				}
+
+					.top-nav a {
+						display: inline;
+						font-size: 14px;
+						font-weight: 600;
+						letter-spacing: normal;
+						padding: 0;
+					}
+
+		.page-headline {
+			font-size: 60px;
+		}
+
+		.page-desc {
+			font-size: 18px;
+		}
+
+	.content-row {}
+
+		.content-heading {
+			font-size: 36px;
+		}
+
+		.content-text {
+			font-size: 18px;
+		}
+
+		.home-skills {}
+
+			.home-skills-column {}
+
+				.home-skills-icon {
+					height: 100px;
+					width: 100px;
+				}
+
+				.home-skills-heading {
+					font-size: 18px;
+				}
+
+		.portfolio-info {
+			padding: 0 30px;
+		}
+
+			.portfolio-heading {
+				font-size: 32px;
+			}
+
+			.portfolio-text {
+				font-size: 18px;
+			}
+
+			.portfolio-button {
+				font-size: 16px;
+				line-height: 40px;
+			}
+
+		.portfolio-img-title,
+		.portfolio-img-caption {
+			font-size: 16px;
+		}
+
+		.resume-heading	{
+			font-size: 36px;
+		}
+
+		.resume-entry {
+			font-size: 18px;
+		}
+
+			.resume-date {
+				font-size: 18px;
+			}
+
+			.resume-desc {
+				font-size: 16px;
+			}
+
+			.resume-list {}
+
+				.resume-list li {
+					font-size: 16px;
+				}
+
+		.resume-button {
+			font-size: 16px;
+			line-height: 40px;
+		}
+
+	footer {}
+
+		.footer-nav {}
+
+			.footer-nav li + li {
+				margin-left: 25px;
+			}
+
+				.footer-nav a {
+					font-size: 12px;
+				}
+
+		.footer-copyright {
+			font-size: 12px;
+		}
+
+}
+
+@media (min-width: 600px) {
+
+	.page-header--home {
+		background-size: 792px;
+		height: 500px;
+	}
+
+		.page-headline {
+			font-size: 66px;
+		}
+
+	.content-row {}
+
+		.home-skills {
+			padding: 0 30px;
+		}
+
+			.home-skills-column {}
+
+				.home-skills-icon {
+					float: left;
+					margin: 30px 20px 0 0;
+				}
+
+				.home-skills-heading,
+				.home-skills-text {
+					text-align: left;
+				}
+
+}
+
+@media (min-width: 800px) {
+
+	.page-header--home {
+		background-size: 1056px;
+		height: 580px;
+	}
+
+		.page-headline {
+			font-size: 72px;
+		}
+
+	.content-row {}
+
+		.portfolio-info {
+			float: left;
+			padding: 0 40px 0 30px;
+			text-align: left;
+			width: 50%;
+		}
+
+		.portfolio-info--fltrgt {
+			float: right;
+			padding: 0 30px 0 40px;
+		}
+
+		.portfolio-img-inline {
+			float: left;
+			margin: 0;
+			width: 50%;
+		}
+
+		.resume-heading {
+			text-align: left;
+		}
+
+		.resume-entry {}
+
+			.resume-date {
+				display: inline-block;
+				float: right;
+				margin: 0;
+				width: 275px;
+			}
+
+			.resume-desc {
+				padding-right: 315px;
+			}
+
+}		
+
+@media (min-width: 1000px) {
+
+	.page-header {
+		padding-bottom: 100px;
+	}
+
+	.page-header--home {
+		background-size: auto;
+		height: 660px;
+		padding: 0;
+	}
+
+	.page-header--small {
+		padding: 0;
+	}
+
+		.page-headline {
+			margin: 100px 0 0;
+		}
+
+	.content-row {}
+
+		.home-skills {
+			margin-top: 60px;
+			padding: 0;
+		}
+
+			.home-skills-column {
+				float: left;
+				margin: 0;
+				padding: 0 35px;
+				width: 33.3333%;
+			}
+
+				.home-skills-icon {
+					float: none;
+					margin: 0 auto;
+				}
+
+				.home-skills-heading,
+				.home-skills-text {
+					text-align: center;
+				}
+
+		.portfolio-info {
+			padding: 0 40px 0 0;
+		}
+
+		.portfolio-info--fltrgt {
+			padding: 0 0 0 40px;
+		}
+
+		.resume-entry {}
+
+			.resume-location {
+				display: inline;
+			}
+
+}
+
+/**
+ * Retina display image replacements.
+ */
+@media (min-width: 1000px) and (min-resolution: 192dpi) {
+
+	.page-header--home {
+		background-image: url(/img/home-bg@2x.png);
+		background-size: 1320px 351px;
+	}
+
+}
