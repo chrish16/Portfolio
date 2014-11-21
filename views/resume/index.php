@@ -6,14 +6,7 @@
 					<span class="resume-date">June 2013 &mdash; August 2014</span>
 					<strong>Web Developer</strong> at <strong>Appliances Connection</strong>
 					<span class="resume-location">(Brooklyn, New York)</span>
-					<p class="resume-desc">Designed and implemented various internal and consumer-facing web applications in a fast-paced environment.</p>
-				</div>
-
-				<div class="resume-entry">
-					<span class="resume-date">April 2013 &mdash; June 2013</span>
-					<strong>Barista</strong> (Customer Service) at <strong>Zaro's Bakery</strong>
-					<span class="resume-location">(Grand Central Terminal)</span>
-					<p class="resume-desc">Greeted customers and worked with a team of staff to fill orders as efficiently as possible in an extremely high traffic and fast-paced environment.</p>
+					<p class="resume-desc">Worked with the marketing department to maintain the website, promote sales, and design then implement various internal and consumer-facing web projects.</p>
 				</div>
 
 				<div class="resume-entry">
@@ -49,27 +42,20 @@
 				<h2 class="resume-heading">Skills</h2>
 
 				<div class="resume-entry">
-					<strong>Software / Technologies:</strong>
+					<strong>Software/Technologies:</strong>
 					<ul class="resume-list">
 						<li>Operating Systems: Windows, Mac OS X</li>
-						<li>Microsoft&reg; Office: Word, Excel, PowerPoint (word processing, spreadsheets, data entry, presentations)</li>
-						<li>Adobe&reg; Creative Suite: Dreamweaver (<a href="/downloads/DW_CS4.pdf">2x</a> <a href="/downloads/DW_CS5.pdf">ceritified</a>), Photoshop (<a href="/downloads/PS_CS4.pdf">2x</a> <a href="/downloads/PS_CS5.pdf">ceritified</a>)</li>
-						<li>HTML, CSS, JavaScript/jQuery, PHP, MySQL (web design, web development)</li>
+						<li>Languages/Frameworks: HTML, CSS, JavaScript, jQuery, PHP, MySQL</li>
+						<li>Other Tools: Apache, Git, Dreamweaver (<a href="/downloads/DW_CS4.pdf">2x</a> <a href="/downloads/DW_CS5.pdf">ceritified</a>), Photoshop (<a href="/downloads/PS_CS4.pdf">2x</a> <a href="/downloads/PS_CS5.pdf">ceritified</a>), Word, Excel, PowerPoint, Publisher
+						<li>Keywords/Competencies: web design, front end, back end, web development, responsive design, cross-browser compatibility, html emails, eCommerce, SEO, branding, social media, Microsoft Office, word processing, spreadsheets, presentations, data entry</li>
 					</ul>
 				</div>
 
 				<div class="resume-entry">
 					<strong>Miscellaneous:</strong>
 					<ul class="resume-list">
-						<li>Customer service, organization and coordination skills</li>
 						<li>Saxophonist and pianist</li>
 					</ul>
-				</div>
-
-				<h2 class="resume-heading">References</h2>
-
-				<div class="resume-entry">
-					References available upon request.
 				</div>
 
 				<a href="/downloads/resume.pdf" class="resume-button">Download PDF Version &rsaquo;</a>
