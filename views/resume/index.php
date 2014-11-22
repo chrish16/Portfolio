@@ -46,7 +46,7 @@
 					<ul class="resume-list">
 						<li>Operating Systems: Windows, Mac OS X</li>
 						<li>Languages/Frameworks: HTML, CSS, JavaScript, jQuery, PHP, MySQL</li>
-						<li>Other Tools: Apache, Git, Dreamweaver (<a href="/downloads/DW_CS4.pdf">2x</a> <a href="/downloads/DW_CS5.pdf">ceritified</a>), Photoshop (<a href="/downloads/PS_CS4.pdf">2x</a> <a href="/downloads/PS_CS5.pdf">ceritified</a>), Word, Excel, PowerPoint, Publisher
+						<li>Other Tools: Apache, Git, Dreamweaver (<a href="/downloads/DW_CS4.pdf">2x</a> <a href="/downloads/DW_CS5.pdf">certified</a>), Photoshop (<a href="/downloads/PS_CS4.pdf">2x</a> <a href="/downloads/PS_CS5.pdf">certified</a>), Word, Excel, PowerPoint, Publisher
 						<li>Keywords/Competencies: web design, front end, back end, web development, responsive design, cross-browser compatibility, html emails, eCommerce, SEO, branding, social media, Microsoft Office, word processing, spreadsheets, presentations, data entry</li>
 					</ul>
 				</div>
