@@ -223,10 +223,6 @@ strong {
 				width: 50px;
 			}
 
-			.home-skills-column:hover .home-skills-icon {
-				opacity: 0.5;
-			}
-
 			.home-skills-heading {
 				color: #252525;
 				font-size: 16px;
