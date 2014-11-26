@@ -3,20 +3,30 @@ Options -Indexes
 RewriteEngine On
 RewriteBase /
 
-# ---------- Remove www. from hosts ----------------------------------- #
+# ----------------------------------------------------
+# Remove www. from hosts
+# ----------------------------------------------------
 RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
 RewriteRule ^(.*)$ http://%1/$1 [L,NC,R=301]
 
-# ---------- Remove /public from URLs --------------------------------- #
+# ----------------------------------------------------
+# Remove /public from URLs
+# ----------------------------------------------------
 RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=301]
 
-# ---------- Remove trailing slashes ---------------------------------- #
+# ----------------------------------------------------
+# Remove trailing slashes
+# ----------------------------------------------------
 RewriteRule ^(.*)/$ /$1 [L,NE,R=301]
 
-# ---------- Send all requests to /public ----------------------------- #
+# ----------------------------------------------------
+# Send all requests to /public
+# ----------------------------------------------------
 RewriteRule ^((?!public/).*)$ public/$1 [NC]
 
-# ---------- Send all non-file requests to /public/index.php ---------- #
+# ----------------------------------------------------
+# Send all non-file requests to /public/index.php
+# ----------------------------------------------------
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ /index.php [L]
