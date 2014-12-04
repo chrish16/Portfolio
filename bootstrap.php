@@ -21,7 +21,7 @@ spl_autoload_register(function ($class) {
 	$class_locations = ['controllers', 'libs'];
 	foreach ($class_locations as $location) {
 		if (file_exists($location = ROOT . DS . $location . DS . $class . '.php')) {
-			include $location;
+			require $location;
 			break;
 		}
 	}

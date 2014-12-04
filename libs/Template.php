@@ -51,8 +51,8 @@ class Template
 		/**
 		 * Combine and show the views.
 		 */
-		include ROOT . DS . 'views' . DS. 'default_header.php';
-		include ROOT . DS . 'views' . DS . $this->view . '.php';
-		include ROOT . DS . 'views' . DS . 'default_footer.php';
+		require ROOT . DS . 'views' . DS. 'default_header.php';
+		require ROOT . DS . 'views' . DS . $this->view . '.php';
+		require ROOT . DS . 'views' . DS . 'default_footer.php';
 	}
 }
